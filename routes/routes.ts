@@ -3,6 +3,6 @@ import { device } from '../controllers/ controller';
 
 const router = express.Router();
 
-router.post('/device', device);
+router.get('/device', device);
 
 export default router;
